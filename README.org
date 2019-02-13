@@ -17,7 +17,7 @@ The purpose of this class activity is to provide experience in correcting bugs a
 
 | Issue | Description                                                                                          |
 |-------+------------------------------------------------------------------------------------------------------|
-|     1 | Something broken: application cannot load - undefined local variable or method `taks_path'           |
+|     1 | Something broken: application cannot load - undefined local variable or method `task_path'           |
 |     2 | The job class must have a location field to hold the street address where the job is to be performed |
 |     3 | User interface for task needs way to pick job                                                        |
 |     4 | There should be a field in the Task that allows it to be marked as completed                         |
