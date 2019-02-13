@@ -1,0 +1,23 @@
+#+TITLE: CIS 4339 Debugging/Enhancement Exercise
+#+LATEX_CLASS: article
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage[letterpaper]{geometry}
+#+LATEX_HEADER: \geometry{verbose,tmargin=0.8in,bmargin=0.6in,lmargin=0.75in,rmargin=0.75in}
+#+LATEX_HEADER: \setlength{\parskip}{\medskipamount}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+OPTIONS: ^:nil toc:nil
+
+* Overview
+
+The purpose of this class activity is to provide experience in correcting bugs and making enhancements to an existing application.
+
+* Github Issues
+
+To give you experience in using Github issues, each task you must complete is in Github as either a feature request or a defect. You will find these under the /Issues/ link in your project. When you complete the work for an issue,
+you are to perform a git check-in and push to Github, using an appropriate comment that says what you fixed and a tag that causes Github to automatically mark the issue as closed. See https://help.github.com/articles/closing-issues-using-keywords/ 
+for instructions.
+
+* Turning in the assignment 
+Turn in the ssh clone key to Blackboard. This is a graded assignment (not an automatic 100). Grading is based on how many of the issues you /correctly/ address.
