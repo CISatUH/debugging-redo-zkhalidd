@@ -13,11 +13,21 @@
 
 The purpose of this class activity is to provide experience in correcting bugs and making enhancements to an existing application.
 
-* Github Issues
+* Issues List
 
-To give you experience in using Github issues, each task you must complete is in Github as either a feature request or a defect. You will find these under the /Issues/ link in your project. When you complete the work for an issue,
-you are to perform a git check-in and push to Github, using an appropriate comment that says what you fixed and a tag that causes Github to automatically mark the issue as closed. See https://help.github.com/articles/closing-issues-using-keywords/ 
-for instructions.
+| Issue | Description                                                                                          |
+|-------+------------------------------------------------------------------------------------------------------|
+|     1 | Something broken: application cannot load - undefined local variable or method `taks_path'           |
+|     2 | The job class must have a location field to hold the street address where the job is to be performed |
+|     3 | User interface for task needs way to pick job                                                        |
+|     4 | There should be a field in the Task that allows it to be marked as completed                         |
+|     5 | There should be a field in the Task where the number of hours worked can be entered                  |
+|     6 | The word "Task" is misspelled on the New Task page!                                                  |
+|     7 | The Task list should include the job that the task belongs to                                        |
+|     8 | A job should be able to be marked as completed                                                       |
+|     9 | The job list should have completed jobs listed separately from incomplete jobs                       |
+|    10 | Jobs can be created with no name!                                                                    |
+#+tblfm: $1=@#-1
 
 * Turning in the assignment 
 Turn in the ssh clone key to Blackboard. This is a graded assignment (not an automatic 100). Grading is based on how many of the issues you /correctly/ address.
