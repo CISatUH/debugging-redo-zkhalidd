@@ -19,11 +19,23 @@
   <div class="field">
     <%= form.label :effort %>
     <%= form.number_field :effort %>
-  </div>
+  </div>ra
 
   <div class="field">
     <%= form.label :job_id %>
     <%= form.collection_select(:job_id, Job.all, :id, :name) %>
+  </div>
+
+  <div class="collection-check-box">
+    <%= form.label :status %>
+    <%= form.check_box :status %>
+  </div>
+
+  <div class="field">
+    <%= form.label :hours_worked %>
+    <%= form.number_field :hours_worked %>
+  </div>ra
+
   </div>
 
   <div class="actions">

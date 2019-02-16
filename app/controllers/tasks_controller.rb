@@ -21,6 +21,7 @@ class TasksController < ApplicationController
   def edit
   end
 
+
   # POST /tasks
   # POST /tasks.json
   def create
@@ -61,6 +62,8 @@ class TasksController < ApplicationController
     end
   end
 
+
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_task
@@ -69,6 +72,8 @@ class TasksController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def task_params
-      params.require(:task).permit(:name, :effort, :job_id)
+      params.require(:task).permit(:name, :effort, :job_id, :status, :hours_worked)
     end
+
 end
+
