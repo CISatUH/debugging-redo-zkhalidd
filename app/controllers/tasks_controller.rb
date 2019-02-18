@@ -21,6 +21,13 @@ class TasksController < ApplicationController
   def edit
   end
 
+  def complete_checkbox(result)
+    if result == 1
+      status ="complete"
+    else
+      status ="not completed"
+    end
+  end
 
   # POST /tasks
   # POST /tasks.json
