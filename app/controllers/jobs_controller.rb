@@ -5,6 +5,7 @@ class JobsController < ApplicationController
   # GET /jobs.json
   def index
     @jobs = Job.all
+    @jobs = Job.all.order(:status)
   end
 
   # GET /jobs/1
