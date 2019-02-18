@@ -9,6 +9,11 @@
   <strong>Location:</strong>
   <%= @job.location %>
 </p>
+<p>
+  <strong>Status:</strong>
+  <%= @job.status %>
+</p>
+
 
 <%= link_to 'Edit', edit_job_path(@job) %> |
 <%= link_to 'Back', jobs_path %>
